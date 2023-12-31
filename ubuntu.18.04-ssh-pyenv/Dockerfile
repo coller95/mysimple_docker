@@ -24,7 +24,6 @@ echo 'eval "$(pyenv init --path)"' >> ~/.bashrc && \
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc && \
 echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc && \
 echo 'export PYENV_VIRTUALENV_DISABLE_PROMPT=1' >> ~/.bashrc && \
-~/.bashrc && \
 env PYTHON_CONFIGURE_OPTS="--enable-shared" pyenv install --force 3.6.9 -v && pyenv global 3.6.9
 
 USER root
